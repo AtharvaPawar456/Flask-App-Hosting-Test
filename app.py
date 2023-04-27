@@ -8,4 +8,4 @@ def index():
     return render_template('index.html', username=username)
 
 if __name__ == '__main__':
-    app.run(debug=Flase)
+    app.run(debug=False)
